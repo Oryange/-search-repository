@@ -9,7 +9,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/hubbusters">
     <Switch>
       <Route exact path="/" component={ Dash } />
       <Route path="/detalhes" component={ Details } />
